@@ -6,6 +6,7 @@
 package org.eastsideprep.huntthewumpus;
 
 /**
+ *
  * @author bshakes
  */
 public class wumpusMovement {
