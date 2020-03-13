@@ -7,16 +7,16 @@ package org.eastsideprep.huntthewumpus;
 
 import org.eastsideprep.htw_interfaces.Sound;
 
+
 /**
  *
  * @author gmein
  */
-public class GameControl {
+public class SoundClass implements Sound{
 
-    void test() {
-        Sound s = new SoundClass();
-
-        s.playAlarm();
-        
+    @Override
+    public void playAlarm() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
 }
