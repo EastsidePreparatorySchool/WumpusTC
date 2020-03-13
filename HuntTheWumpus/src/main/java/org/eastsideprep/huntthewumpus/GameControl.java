@@ -9,7 +9,7 @@ import org.eastsideprep.htw_interfaces.Sound;
 
 /**
  *
- * @author gmein
+ * @author etardif
  */
 public class GameControl {
 
