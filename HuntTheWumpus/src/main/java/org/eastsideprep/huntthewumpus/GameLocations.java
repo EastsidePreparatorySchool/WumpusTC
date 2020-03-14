@@ -12,5 +12,15 @@ import org.eastsideprep.htw_interfaces.Locations;
  * @author etardif
  */
 public class GameLocations implements Locations{
+
+    @Override
+    public void CheckHazards() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void MovePlayerLocation() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

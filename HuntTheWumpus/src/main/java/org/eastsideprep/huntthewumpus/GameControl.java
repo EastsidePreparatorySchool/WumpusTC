@@ -23,6 +23,7 @@ public class GameControl implements Control{
     
     @Override
     public void NewGame() {
+        
     }
 
     @Override
