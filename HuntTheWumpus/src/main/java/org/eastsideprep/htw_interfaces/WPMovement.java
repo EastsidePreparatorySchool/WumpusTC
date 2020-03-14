@@ -10,5 +10,6 @@ package org.eastsideprep.htw_interfaces;
  * @author etardif
  */
 public interface WPMovement {
-    
+    public void sleeping();
+    public void active();
 }
