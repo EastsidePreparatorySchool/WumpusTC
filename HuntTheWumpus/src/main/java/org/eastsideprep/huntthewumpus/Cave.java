@@ -12,5 +12,15 @@ import org.eastsideprep.htw_interfaces.CaveInterface;
  * @author etardif
  */
 public class Cave implements CaveInterface{
+
+    @Override
+    public void generateCave() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void PossibleMovements() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

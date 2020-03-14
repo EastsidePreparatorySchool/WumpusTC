@@ -10,5 +10,8 @@ package org.eastsideprep.htw_interfaces;
  * @author etardif
  */
 public interface Locations {
+    //need an Array or Object filled with the locations of hazards
+    public void CheckHazards(); //checks hazards at a given location
+    public void MovePlayerLocation(); //moves player
     
 }

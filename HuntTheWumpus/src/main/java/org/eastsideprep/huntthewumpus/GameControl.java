@@ -7,6 +7,11 @@ package org.eastsideprep.huntthewumpus;
 
 import org.eastsideprep.htw_interfaces.Sound;
 import org.eastsideprep.htw_interfaces.Score;
+import org.eastsideprep.htw_interfaces.CaveInterface;
+import org.eastsideprep.htw_interfaces.Locations;
+import org.eastsideprep.htw_interfaces.TriviaInterface;
+import org.eastsideprep.htw_interfaces.WPMovement;
+
 
 import org.eastsideprep.htw_interfaces.Control;
 
@@ -18,11 +23,9 @@ public class GameControl implements Control{
     
     @Override
     public void NewGame() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void ShowHighScore() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void ReturnHighScore() {
     }
 }
