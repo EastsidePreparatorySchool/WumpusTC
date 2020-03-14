@@ -11,5 +11,5 @@ package org.eastsideprep.htw_interfaces;
  */
 public interface Control {
     public void NewGame();
-    public void ShowHighScore();
+    public void ReturnHighScore();
 }
