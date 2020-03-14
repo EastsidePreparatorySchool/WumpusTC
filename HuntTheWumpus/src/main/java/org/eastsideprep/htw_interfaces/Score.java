@@ -10,5 +10,11 @@ package org.eastsideprep.htw_interfaces;
  * @author etardif
  */
 public interface Score {
+    public void fetchScore();
+    public void finalScoreCalculation();
+    public void addToScore();
+    public void subtractFromScore();
+    public void saveHighScore();
     
+   
 }

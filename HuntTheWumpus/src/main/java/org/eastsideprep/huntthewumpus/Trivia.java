@@ -12,5 +12,13 @@ import org.eastsideprep.htw_interfaces.TriviaInterface;
  * @author etardif
  */
 public class Trivia implements TriviaInterface{
-    
+    @Override
+    public void getTriviaQ(){
+        
+    }
+    @Override
+    public void returnCoinCount(){
+        
+    }
 }
+
