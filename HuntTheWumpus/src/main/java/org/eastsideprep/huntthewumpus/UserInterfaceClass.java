@@ -6,6 +6,7 @@
 package org.eastsideprep.huntthewumpus;
 
 import org.eastsideprep.htw_interfaces.UInterface;
+import org.eastsideprep.htw_interfaces.Control;
 
 /**
  *

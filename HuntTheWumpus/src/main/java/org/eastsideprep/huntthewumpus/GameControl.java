@@ -6,6 +6,12 @@
 package org.eastsideprep.huntthewumpus;
 
 import org.eastsideprep.htw_interfaces.Sound;
+import org.eastsideprep.htw_interfaces.Score;
+import org.eastsideprep.htw_interfaces.CaveInterface;
+import org.eastsideprep.htw_interfaces.Locations;
+import org.eastsideprep.htw_interfaces.TriviaInterface;
+import org.eastsideprep.htw_interfaces.WPMovement;
+
 
 import org.eastsideprep.htw_interfaces.Control;
 
@@ -14,11 +20,12 @@ import org.eastsideprep.htw_interfaces.Control;
  * @author etardif
  */
 public class GameControl implements Control{
+    
+    @Override
+    public void NewGame() {
+    }
 
-    void test() {
-        Sound s = new SoundClass();
-
-        s.playAlarm();
-        
+    @Override
+    public void ReturnHighScore() {
     }
 }

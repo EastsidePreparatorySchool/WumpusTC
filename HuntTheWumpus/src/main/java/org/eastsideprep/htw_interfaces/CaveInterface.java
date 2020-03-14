@@ -7,8 +7,10 @@ package org.eastsideprep.htw_interfaces;
 
 /**
  *
- * @author etardif
+ * @author etardifS
  */
 public interface CaveInterface {
-    
+    public void generateCave();
+    public void PossibleMovements(); //given a location on the cave, return possible movementsSS
+    public void generateRandomRoom(); //return a random room that isn't the player's room
 }

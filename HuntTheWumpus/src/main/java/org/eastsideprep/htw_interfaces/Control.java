@@ -10,5 +10,6 @@ package org.eastsideprep.htw_interfaces;
  * @author etardif
  */
 public interface Control {
-    
+    public void NewGame();
+    public void ReturnHighScore();
 }
