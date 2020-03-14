@@ -7,7 +7,6 @@ package org.eastsideprep.huntthewumpus;
 
 import org.eastsideprep.htw_interfaces.Sound;
 import org.eastsideprep.htw_interfaces.Score;
-import org.eastsideprep.htw_interfaces.CaveInterface;
 import org.eastsideprep.htw_interfaces.Locations;
 import org.eastsideprep.htw_interfaces.TriviaInterface;
 import org.eastsideprep.htw_interfaces.WPMovement;

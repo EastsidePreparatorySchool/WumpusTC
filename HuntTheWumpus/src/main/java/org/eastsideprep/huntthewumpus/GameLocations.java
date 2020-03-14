@@ -6,13 +6,18 @@
 package org.eastsideprep.huntthewumpus;
 
 import org.eastsideprep.htw_interfaces.Locations;
-
+import org.eastsideprep.htw_interfaces.Control;
 /**
  *
  * @author etardif
  */
 public class GameLocations implements Locations{
-
+    Cave c;
+    
+    GameLocations (Cave cave){
+        c=cave;
+    }
+    
     @Override
     public void CheckHazards() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
