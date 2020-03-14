@@ -5,12 +5,13 @@
  */
 package org.eastsideprep.huntthewumpus;
 
-import org.eastsideprep.htw_interfaces.WPMovement;
+import org.eastsideprep.htw_interfaces.UInterface;
 
 /**
  *
- * @author bshakes
+ * @author etardif
  */
-public class wumpusMovement implements WPMovement{
+public class UserInterfaceClass implements UInterface{
     
+    //Is this supposed to be a class or an Interface.
 }

@@ -5,10 +5,12 @@
  */
 package org.eastsideprep.huntthewumpus;
 
+import org.eastsideprep.htw_interfaces.Locations;
+
 /**
  *
  * @author etardif
  */
-public class GameLocations {
+public class GameLocations implements Locations{
     
 }

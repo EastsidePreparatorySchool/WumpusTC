@@ -5,10 +5,12 @@
  */
 package org.eastsideprep.huntthewumpus;
 
+import org.eastsideprep.htw_interfaces.Score;
+
 /**
  *
  * @author mlee23
  */
-public class HighScore {
+public class HighScore implements Score{
     
 }

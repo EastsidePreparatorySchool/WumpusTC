@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.eastsideprep.huntthewumpus;
+package org.eastsideprep.htw_interfaces;
 
 /**
  *
  * @author etardif
  */
-public class UserInterface {
+public interface Locations {
     
 }

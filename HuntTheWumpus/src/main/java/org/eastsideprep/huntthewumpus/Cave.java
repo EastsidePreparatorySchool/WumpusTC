@@ -5,10 +5,12 @@
  */
 package org.eastsideprep.huntthewumpus;
 
+import org.eastsideprep.htw_interfaces.CaveInterface;
+
 /**
  *
  * @author etardif
  */
-public class Cave {
+public class Cave implements CaveInterface{
     
 }

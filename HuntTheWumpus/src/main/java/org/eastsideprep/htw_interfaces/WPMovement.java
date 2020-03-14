@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.eastsideprep.huntthewumpus;
-
-import org.eastsideprep.htw_interfaces.WPMovement;
+package org.eastsideprep.htw_interfaces;
 
 /**
  *
- * @author bshakes
+ * @author etardif
  */
-public class wumpusMovement implements WPMovement{
+public interface WPMovement {
     
 }

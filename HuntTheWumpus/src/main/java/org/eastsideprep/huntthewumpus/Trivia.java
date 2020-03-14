@@ -5,10 +5,12 @@
  */
 package org.eastsideprep.huntthewumpus;
 
+import org.eastsideprep.htw_interfaces.TriviaInterface;
+
 /**
  *
  * @author etardif
  */
-public class Trivia {
+public class Trivia implements TriviaInterface{
     
 }
