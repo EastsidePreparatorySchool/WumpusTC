@@ -10,5 +10,6 @@ package org.eastsideprep.htw_interfaces;
  * @author gmein
  */
 public interface Sound {
-    void playAlarm();
+    public void playAlarm();
+    public void playHappySound();
 }

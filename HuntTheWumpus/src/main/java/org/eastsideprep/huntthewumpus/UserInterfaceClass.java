@@ -13,5 +13,5 @@ import org.eastsideprep.htw_interfaces.UInterface;
  */
 public class UserInterfaceClass implements UInterface{
     
-    //Is this supposed to be a class or an Interface.
+    
 }
