@@ -10,5 +10,5 @@ package org.eastsideprep.huntthewumpus;
  * @author mlee23
  */
 public class HighScore {
-    
+
 }
