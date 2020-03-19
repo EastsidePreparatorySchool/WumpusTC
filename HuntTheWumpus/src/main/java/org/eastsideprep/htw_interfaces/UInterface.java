@@ -10,5 +10,5 @@ package org.eastsideprep.htw_interfaces;
  * @author etardif
  */
 public interface UInterface {
-    
+    public void startGame();
 }
