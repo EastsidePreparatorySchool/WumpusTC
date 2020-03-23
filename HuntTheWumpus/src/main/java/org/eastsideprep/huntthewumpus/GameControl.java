@@ -9,8 +9,10 @@ import java.util.Scanner;
 import org.eastsideprep.htw_interfaces.Sound;
 import org.eastsideprep.htw_interfaces.Score;
 import org.eastsideprep.htw_interfaces.Locations;
+import org.eastsideprep.htw_interfaces.CaveInterface;
 import org.eastsideprep.htw_interfaces.TriviaInterface;
 import org.eastsideprep.htw_interfaces.WPMovement;
+
 
 
 import org.eastsideprep.htw_interfaces.Control;
@@ -20,9 +22,17 @@ import org.eastsideprep.htw_interfaces.Control;
  * @author etardif
  */
 public class GameControl implements Control{
+        
     
     @Override
     public void NewGame() {
+        CaveInterface cave = new Cave();
+        WPMovement wmp= new wumpusMovement();
+        Locations loc = new GameLocations(cave, wmp);
+        TriviaInterface trivia = new Trivia();
+        Score score = new HighScore();
+        
+        
         
     }
 
