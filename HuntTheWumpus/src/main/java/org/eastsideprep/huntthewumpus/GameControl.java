@@ -5,6 +5,7 @@
  */
 package org.eastsideprep.huntthewumpus;
 
+import java.util.Scanner;
 import org.eastsideprep.htw_interfaces.Sound;
 import org.eastsideprep.htw_interfaces.Score;
 import org.eastsideprep.htw_interfaces.Locations;
