@@ -21,7 +21,7 @@ import org.eastsideprep.htw_interfaces.Control;
  * @author etardif
  */
 public class GameControl implements Control{
-        
+    String currentname;    
     
     @Override
     public void NewGame() {
@@ -34,7 +34,10 @@ public class GameControl implements Control{
         
         
     }
-
+    
+    public void getName(String s){
+        currentname=s;
+    }
     @Override
     public void ReturnHighScore() {
     }

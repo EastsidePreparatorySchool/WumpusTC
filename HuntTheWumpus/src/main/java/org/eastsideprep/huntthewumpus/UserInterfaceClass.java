@@ -14,16 +14,31 @@ import java.util.Scanner;
  * @author etardif
  */
 public class UserInterfaceClass implements UInterface{
-
+    static Scanner sc = new Scanner(System.in);  // Create a Scanner object
     @Override
     public void startGame() {
         Control GC= new GameControl();
+      
         GC.NewGame();
         
-        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-        System.out.println("Enter your name: ");
-
-        String userName = myObj.nextLine();  // Read user input
+        //Sets name
+       
+        
+        String userName = ask("Enter your name: \n");
         System.out.println("Your name is: " + userName);  // Output user input
+        GC.getName(userName);
+        
+        //Print Rules 
+        System.out.println("Rules");
+        
+        //
+        
     }
+    
+    public String ask(String a){
+        System.out.println(a);
+        String b=sc.nextLine();
+        return b;
+    }
+    
 }
