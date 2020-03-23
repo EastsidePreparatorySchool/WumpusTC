@@ -17,5 +17,6 @@ public class UserInterfaceClass implements UInterface{
     @Override
     public void startGame() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    
     }
 }
