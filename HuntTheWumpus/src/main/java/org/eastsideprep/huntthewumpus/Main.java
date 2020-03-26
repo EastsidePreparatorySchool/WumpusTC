@@ -16,5 +16,6 @@ public class Main {
         // launch();
         System.out.println("Hunt that Wumpus!");
         UInterface UI = new UserInterfaceClass(); //created new UI. All object are in it
+        UI.startGame();
     }
 }

@@ -6,16 +6,21 @@
 package org.eastsideprep.huntthewumpus;
 
 import org.eastsideprep.htw_interfaces.Locations;
+import org.eastsideprep.htw_interfaces.CaveInterface;
 import org.eastsideprep.htw_interfaces.Control;
+import org.eastsideprep.htw_interfaces.WPMovement;
+
 /**
  *
  * @author etardif
  */
 public class GameLocations implements Locations{
-    Cave c;
+    CaveInterface c;
+    WPMovement wmp;
     
-    GameLocations (Cave cave){
+    GameLocations (CaveInterface cave, WPMovement wmp){
         c=cave;
+        this.wmp=wmp;
     }
     
     @Override
