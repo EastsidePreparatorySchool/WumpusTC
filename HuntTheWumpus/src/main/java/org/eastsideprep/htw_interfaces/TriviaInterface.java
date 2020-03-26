@@ -10,8 +10,8 @@ package org.eastsideprep.htw_interfaces;
  * @author etardif
  */
 public interface TriviaInterface {
-    public void getTriviaQ();
-    public void returnCoinCount();
+    public String getTriviaQ();
+    public int returnCoinCount();
     //get trivia question from separate file that is an array of all q and as. 
     //store question and answer in two 
     //vars. returns two strings in another array
