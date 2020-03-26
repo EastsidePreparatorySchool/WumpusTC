@@ -40,9 +40,7 @@ public class UserInterfaceClass implements UInterface{
         String b=sc.nextLine();
         return b;
     }
-<<<<<<< HEAD
+
 }
-=======
-    
-}
->>>>>>> master
+
+
