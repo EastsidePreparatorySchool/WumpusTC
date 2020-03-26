@@ -5,10 +5,14 @@
  */
 package org.eastsideprep.huntthewumpus;
 
+import org.eastsideprep.htw_interfaces.Locations;
+import org.eastsideprep.htw_interfaces.CaveInterface;
+import org.eastsideprep.htw_interfaces.Control;
+import org.eastsideprep.htw_interfaces.WPMovement;
 /**
  *
  * @author sgershaft
  */
-public interface PlayerObject {
+public class PlayerObject implements Score{
+    Score score;
     
-}
